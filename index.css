@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("./assests/fonts/CursedTimerUlil-Aznm.ttf") format('truetype');
+    font-weight: normal;
+}
+
+
+body {
+    margin: 0;
+  /*  background: url("./tim-hart-mRyMi1qsdqs-unsplash.jpg");
+    background-size: cover; */
+    text-align: center; 
+    color: white;
+    background: #1F2937;
+   font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2, h3 {
+    font-size: 2rem;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #fd4f6d;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    font-family: "CursedTimer", sans-serif;
+}
+
+.new-game-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+button {
+    border: 2px solid #9aabd8;
+    background: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: #9aabd8;
+    font-family: "CursedTimer", sans-serif;
+}
+
+button:hover {
+    color: gold;
+    border: 2px solid gold;
+}
