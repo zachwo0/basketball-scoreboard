@@ -61,3 +61,24 @@ button:hover {
     color: gold;
     border: 2px solid gold;
 }
+
+@keyframes bounce {
+    0%, 20%, 80%, 100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    10%, 90% {
+        transform: translateY(-7px);
+        animation-timing-function: ease-in-out;
+    }
+
+    50% {
+        transform: translateY(-15px);
+        animation-timing-function: ease-in;
+    }
+}
+
+#bouncing-ball {
+    animation: bounce 1s;
+}
